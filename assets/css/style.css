@@ -1,0 +1,33 @@
+/*custom css */
+
+/*header bar */
+.page-header {
+    background-image: url('../junkfood.jpg');
+    min-height: 150px;
+    vertical-align: middle;
+}
+
+/*all divs*/
+div {
+    text-align: center;
+}
+
+/*main website heading */
+#heading {
+    font-size: 50px;
+    line-height: 150px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    text-shadow: 4px 0 0 black, -4px 0 0 black, 0 4px 0 black, 0 -4px 0 black, 1px 1px black, -4px -4px 0 black, 4px -4px 0 black, -4px 4px 0 black;
+}
+
+/*left side of primary content */
+#left {
+
+}
+
+/*initial image for left side*/
+#leftPic {
+    width: 100%;
+}

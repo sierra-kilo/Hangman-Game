@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Junkfood Hangman</title>
+        <!-- reset css -->
+        <link rel="stylesheet" href="assets/css/reset.css">
+
+        <!-- bootstrap required jquery-3 -->
+        <script src="http://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- custom css  -->
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="page-header">
+            <h1 id='heading'>JunkFood Hangman</h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div id='left' class="col-sm-6">
+                    <img id="leftPic" src="assets/junkfood.jpg" alt="">
+                </div>
+                <div id='right' class="col-sm-6">
+                    <div class="Insturctions">
+                        <h3>Press any key to get started</h3>
+                        ____________________
+                    </div>
+                    <div class="wins">
+                        <h3>Your Wins:</h3>
+                        <div id='winTotal'>
+
+                        </div>
+                    </div>
+                    <div class="currentWord">
+                        <h3>Current Word</h3>
+                        <div id="puzzle">
+                            puzzle
+                        </div>
+                    </div>
+                    <div class="gusses">
+                        <h3>Keep track</h3>
+                        <div id='guessesRemaining'>
+
+                        </div>
+                        <div id=guessedLetters>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/game.js" charset="utf-8"></script>
+    </body>
+</html>
